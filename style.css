@@ -1,5 +1,6 @@
 .body {
     display:flex;
+    font: "roboto", sans-serif;
 }
 
 .header {
@@ -7,16 +8,20 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding-left: 64px;
-    padding-right: 64px;
+    padding-left: 120px;
+    padding-right: 120px;
     background-color: #1f2937;
 }
 
 ul {
     list-style: none;
+}
+
+a {
     text-decoration: none;
     font-size: 18px;
     color: #e5e7eb;
+    margin: 8px;
 }
 
 li {
@@ -39,6 +44,8 @@ li {
     flex-direction: row;
     justify-content: space-between;
     padding: 64px;
+    padding-left: 120px;
+    padding-right: 120px;
     background-color: #1f2937;
 }
 
@@ -50,36 +57,99 @@ li {
 
 .title {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: 900;
     color: #f9faf8;
 }
 
 .images {
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+.subtitle {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin: 32px;
 }
 
 .container {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.pic {
+    margin: 32px;
+    padding: 32px;
+    align-items: center;
 }
 
 .pic1 {
     height: 150px;
     width: 150px;
+    border-radius: 25px;
+    border: 2px solid #3882f6;
 }
 
 .quote {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+
+.testimonial {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.attribution {
+    margin-left: auto;
+    margin-right: 150px;
 }
 
 .c2a {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    background-color: #3882f6;
+    padding: 12px;
+    margin: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.action-text {
+    margin-left: 48px;
+    margin-right: 48px;
+}
+
+.callbutton {
+    height: fit-content;
+    align-self: center;
+    margin-left: 48px;
+    margin-right: 48px;
+    padding: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border: 2px solid #e5e7eb;
+    border-radius: 4px;
+    background-color: #3882f6;
 }
 
 .footer {
     text-align: center;
     margin-top: auto;
     background-color: #1f2937;
+    padding: 8px;
 }
